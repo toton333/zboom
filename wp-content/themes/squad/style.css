@@ -1,0 +1,47 @@
+/*
+Theme Name: Squad
+Theme URI: localhost/squad
+Author: Bishan Ghosal
+Author URI: http://www.google.com
+Description: A simple menu testing website
+Tags: calm, spirituality, menu, white, blue
+Version:1.0
+
+*/
+
+/* to push content below admin bar*/
+.admin-bar .navbar-fixed-top {
+    margin-top: 30px;
+}
+@media (max-width: 800px) {
+    .admin-bar .navbar-fixed-top {
+        margin-top: 46px;
+    }
+}
+
+/* to add new font family which is not present on mega menu */
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
+    
+	font-family: 'Lato',sans-serif !important;
+}
+
+.navbar-custom.top-nav-collapse #mega-menu-wrap-primary, .navbar-custom.top-nav-collapse  #mega-menu-primary  {
+	background-color: rgba(0,0,0,0) ;
+}
+
+.navbar-custom.top-nav-collapse #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
+	
+	color: #fff;
+}
+
+
+
+
+.navbar-custom.top-nav-collapse #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link:hover,
+.navbar-custom.top-nav-collapse #mega-menu-wrap-primary #mega-menu-primary > li.mega-current-menu-item > a.mega-menu-link
+
+{
+
+    outline: 0;
+    background-color: rgba(0,0,0,.075) !important;
+}

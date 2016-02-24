@@ -1,0 +1,20 @@
+/*
+Theme Name: Squad2
+Theme URI: localhost/squad
+Author: Bishan Ghosal
+Author URI: http://www.google.com
+Description: A simple menu testing website
+Tags: calm, spirituality, menu, white, blue
+Version:1.0
+
+*/
+
+/* to push content below admin bar*/
+.admin-bar .navbar-fixed-top {
+    margin-top: 30px;
+}
+@media (max-width: 800px) {
+    .admin-bar .navbar-fixed-top {
+        margin-top: 46px;
+    }
+}
